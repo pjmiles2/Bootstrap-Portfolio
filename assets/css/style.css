@@ -2,7 +2,7 @@
                     
 .bg {
 
-    background-image: url("../images/background.png");
+    background-image: url("../images/background.jpg");
 
 }
    
@@ -11,8 +11,11 @@
     margin:0; /*gets rid of white space around body*/
     height:200vh; /*you can let your content define it's height*/
     position:relative; /*REQUIRED Sets up positioning for your footer*/
-    background-image: url("../images/background.png");
-
+    background-image: url("../images/background.jpg");
+    width:  100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   #sticky {
@@ -23,5 +26,8 @@
     bottom:0;          /*to the bottom of the body/page*/
     left:0;            /*and to the left of the body/page.*/
   }
-
+  .card-deck {
+      column-count: 3;
+  
+  }
 
